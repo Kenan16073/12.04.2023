@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.cars {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.cars img {
+    width: 250px;
+    object-fit: contain;
+    margin: 10px;
+}
